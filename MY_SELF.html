@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <Link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="mylogo"><img src="MY_logo.jpg" alt="my logo"></div>
+    <div class="upper"></div>
+    <header class="header">
+        <a href="" class="logo">"Hello world!"</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:5">Home</a>
+            <a href="#about" style="--i:4">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#Projects" style="--i:2">Projects</a>
+            <a href="#contact" style="--i:1">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>This is</h3>
+            <h1>JEEVAN</h1>
+            <h3> Skilled in <span class="text"></span></h3>
+            <p> And a Enginnering graduate read to <br>seeak opurtuninty to explore work
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com" style="--i:4">
+                    <img src="icons8-linkedin.svg" alt="LinkedIn Icon" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://www.github.com" style="--i:3">
+                    <img src="icons8-github.svg" alt="LinkedIn Icon" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://www.kaggle.com" style="--i:2">
+                    <img src="icons8-kaggle.svg" alt="kaggle Icon" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://www.instagram.com" style="--i:1">
+                    <img src="icons8-instagram.svg" alt="instagram Icon" style="width: 50px; height: 50px;">
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="gta-6-3840x2160-fan-art-muscle-car-4k-24969.jpeg">
+        </div>
+        <div class="about-text">
+            <h2>ABout<span>Me</span></h2>
+            <h4>Graduate in stream of <span>IT</span></h4>
+            <p>A graduate who is highly motivated and seeking a chance to work in dedicated role challenging
+                environment. The ability adapt both self-starting collaborative environments, remain focused achieve
+                high-quality results. A graduate who is highly motivated and seeking a chance to work in dedicated role
+                challenging environment. The ability adapt both self-starting collaborative environments, remain focused
+                achieve high-quality results.</p>
+        </div>
+
+    </section>
+
+    <section class="Projects" id="Projects">
+        <h1 class="sub-title">My<span>Projects</span></h1>
+        <div class="container">
+            <div class="list">
+                <div>
+                    <div class="img-container">
+                        <img class="main-img" src="cluster.png" alt="Data Science">
+                        <img class="hover-img" src="Cluster_2.png" alt="Data Science Hover">
+                    </div>
+                    <i class="bx" style="color: aqua;"></i>
+                    <h2>Customer Personality Analysis</h2>
+                    <p class="expandable">
+                        This is a project in which we have gathered the data sets and worked on filtering the customers
+                        based on their personalities, and then having the customers that are most similar to one another
+                        put together in a single cluster.<br><br>
+                        <span class="more-text">
+                            Programming Lang: Python <br>
+                            Clustering Alg: Hierarchical <br>
+                            Main Libraries: Pandas, Numpy, Sklearn, Seaborn and Mathplotlib.pyplot <br>
+                            Model: RandomForestClassifier<br>
+                        </span>
+                        <br>
+                        <a class="read" onclick="toggleText(this); return false;">Learn More</a>
+                    </p>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img class="main-img" src="Recom_.png" alt="Web Development">
+                        <img class="hover-img" src="recomand_2.png" alt="Web Development Hover">
+                    </div>
+                    <i class="bx" style="color: aqua;"></i>
+                    <h2>Book Recommendation System</h2>
+                    <p class="expandable">
+                        We have created a book recommendation system for readers that functions similarly to a website
+                        and allows users to browse and select from a wide selection of books and related books.We also
+                        compiled a list of the top 50 highly regarded books.<br><br>
+                        <span class="more-text">
+                            Programming Lang: Python <br>
+                            Type: Cosine Similarity Based Recommendation System, Popularity Based Recommender system<br>
+                            Main Libraries: Pandas, Numpy, Sklearn, Seaborn and Mathplotlib.pyplot <br>
+                            Model: SVD<br>
+                        </span>
+                        <br>
+                        <a class="read" onclick="toggleText(this); return false;">Learn More</a>
+                    </p>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img class="main-img" src="Resume.png" alt="Python">
+                        <img class="hover-img" src="resume_2.png" alt="Python Hover">
+                    </div>
+                    <i class="bx" style="color: aqua;"></i>
+                    <h2>Resume Classifier</h2>
+                    <p class="expandable">
+                        We have developed an NLP model for classification by using a variety of resumes to identify the
+                        various kinds of applications that were received. We then divided the resumes into categories so
+                        that the relevant information could be extracted from the resume text for the classification
+                        task.<br><br>
+                        <span class="more-text">
+                            Programming Lang: Python <br>
+                            Transformation: TF-IDF Features<br>
+                            Main Libraries: Pandas, Numpy, Sklearn, Seaborn, re, LabelEncoder and Mathplotlib.pyplot
+                            <br>
+                            Model: KNN<br>
+                        </span>
+                        <br>
+                        <a class="read" onclick="toggleText(this); return false;">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h1 class="sub-title2">My<span>Skills</span></h1>
+        <div class="list2">
+            <div class="container1">
+                <h1 class="heading1">Technical Skills</h1>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="icons8-html.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">HTML<br>90%</div>
+                    </div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="icons8-css.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">CSS<br>70%</div>
+                    </div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="icons8-python.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">Python<br>85%</div>
+                    </div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="mysql-logo-svgrepo-com.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">MySQL<br>65%</div>
+                    </div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="icons8-js.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">js<br>50%</div>
+                    </div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-6" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="excel-svgrepo-com.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">Excel<br>80%</div>
+                    </div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-7" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="content-inside">
+                        <img src="icons8-power-bi-2021.svg" alt="Icon" class="circle-image">
+                        <div class="percentage">Power BI<br>70%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-all">
+            <div class="contact-text">
+                <h2>YOU CAN CONTACT ME THROUGH</h2>
+            </div>
+
+            <div class="flex-box">
+                <div class="box" id="box1">
+                    <p>G</p>
+                </div>
+                <div class="box" id="box2" >
+                    <p>
+                    <div class="home-sci">
+                        <a href="https://www.linkedin.com" style="--i:4">
+                            <img src="icons8-linkedin.svg" alt="LinkedIn Icon" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.github.com" style="--i:3">
+                            <img src="icons8-github.svg" alt="LinkedIn Icon" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.kaggle.com" style="--i:2">
+                            <img src="icons8-kaggle.svg" alt="kaggle Icon" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com" style="--i:1">
+                            <img src="icons8-instagram.svg" alt="instagram Icon" style="width: 50px; height: 50px;">
+                        </a>
+
+                    </div>
+                    </p>
+                </div>
+                <div class="box" id="box3">
+                    <p>JEEVAN MAC</p>
+                </div>
+                <div class="box" id="box4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aperiam, sint beatae, autem itaque
+                        laudantium accusantium, numquam voluptates officiis error expedita quidem nesciunt iste. Aliquam
+                        suscipit adipisci facilis excepturi labore possimus repellendus ducimus, commodi doloremque!</p>
+                </div>
+                <div class="box" id="box5">
+                    <p>
+                    <div class="ADD">
+                        <h6>You can also contact and refer in </h6>
+                    </div>
+                    </p>
+                </div>
+                <div class="box" id="box6">
+                    <p>
+                        <a style="color: black;" href="#home" style="--i:5">Home</a>
+                    </p>
+                </div>
+                <div class="box" id="box7">
+                    <p>
+                    <div class="contact-list">
+                        <img style="width: auto;height: 30px;" src="phone-svgrepo-com.svg" alt="Phone NUmber"><span
+                            class="text-in"> 91-79814 67401</span><br>
+                        <img style="width: auto;height: 30px;" src="gmail-svgrepo-com.svg" alt="Gmail"> <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=jeevanmac123@gmail.com&su=Hello%20Jeevan&body=Hi%20Jeevan,%20I%20wanted%20to%20reach%20out%20to%20you." target="_blank" class="text-in" id="mail"> jeevanmac123@gmail.com</a>
+                        <br><br><br>
+
+                    </div>
+                    </p>
+                </div>
+                <div class="box" id="box8">
+                    <p>
+                        <a style="color: black;" href="#Projects" style="--i:2">Projects</a>
+                    </p>
+                </div>
+                <div class="box" id="box9">
+                    <p>
+                        <img style="width: 150px;height: 150px;border-radius: 10%;opacity: 0.5;" src="MY_logo.jpg"
+                            alt="">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fotter">
+        <p>&copy; Jeevan 2024. Built this web page. All Rights Reserved.</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
